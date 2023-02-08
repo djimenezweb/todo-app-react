@@ -1,5 +1,11 @@
+import TodoList from './components/todolist/TodoList';
+
 const App = () => {
-	return <h1>Núcleo de la aplicación</h1>;
+	return (
+		<>
+			<TodoList />
+		</>
+	);
 };
 
 export default App;
